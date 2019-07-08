@@ -124,7 +124,6 @@ if(args && args.length === 1 && args[0].endsWith('json')) {
 		scopes
 	);
 
-	console.log('client', oauth2Client);
 	startFlow(oauth2Client);
 } else {
 	googleAuth(startFlow);
