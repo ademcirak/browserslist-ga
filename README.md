@@ -2,15 +2,14 @@
 
 Target browsers tailored to your audience.
 
----
+## Info
 
-<p align="center">
-  <strong><em>Interested in a bot that does all of this for you?
-    <a href="https://goo.gl/forms/WPS13gLAJTwqWQyy1">Click here!</a>
-  </em></strong>
-</p>
+This is a fork of (https://github.com/browserslist/browserslist-ga).
+This fork allows it to use with service account. Just add path of service-account.json as parameter.
 
----
+## Important notice
+
+Since we’re using the Service to Service API in these examples, you need to add the client_email value to your Google Analytics profile. Go to the Admin panel and click User Management, either on a property or on a view ([source](https://flaviocopes.com/google-analytics-api-nodejs/)). You can check referenced link to get more information.
 
 ## How to use
 
