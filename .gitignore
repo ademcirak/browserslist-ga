@@ -22,3 +22,6 @@ yarn-error.log*
 
 # Misc
 .DS_Store
+.idea
+prod-ameliyat-com-ecf3ee98f2c1.json
+browserslist-stats.json
